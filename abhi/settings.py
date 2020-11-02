@@ -139,7 +139,7 @@ EMAIL_HOST_PASSWORD = 'suspectshot69*'
 AWS_ACCESS_KEY_ID = 'AKIAY2U4JMFJSRFIFJMS'
 AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'ksfastners-bucket'
-
+AWS_DEFAULT_ACL = 'public-read'
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None  
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
